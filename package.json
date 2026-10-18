@@ -1,0 +1,15 @@
+{
+  "name": "transformai-cloud-starter",
+  "version": "0.2.0",
+  "private": true,
+  "description": "iPhone-first face/style transformation web app with server-side fal.ai provider integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.6.2",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
